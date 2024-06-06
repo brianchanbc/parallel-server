@@ -1,0 +1,30 @@
+=== RUN   TestSimpleDone
+--- PASS: TestSimpleDone (0.41s)
+=== RUN   TestSimpleWaitDone
+--- PASS: TestSimpleWaitDone (3.02s)
+=== RUN   TestAddRequests
+--- PASS: TestAddRequests (20.38s)
+=== RUN   TestSimpleAddRequest
+--- PASS: TestSimpleAddRequest (1.01s)
+=== RUN   TestSimpleContainsRequest
+--- PASS: TestSimpleContainsRequest (6.39s)
+=== RUN   TestAddWithContainsRequest
+--- PASS: TestAddWithContainsRequest (12.49s)
+=== RUN   TestSimpleFeedRequest
+--- PASS: TestSimpleFeedRequest (0.38s)
+=== RUN   TestSimpleAddAndFeedRequest
+--- PASS: TestSimpleAddAndFeedRequest (0.38s)
+=== RUN   TestSimpleRemoveRequest
+--- PASS: TestSimpleRemoveRequest (6.38s)
+=== RUN   TestAllRequestsXtraSmall
+--- PASS: TestAllRequestsXtraSmall (0.42s)
+=== RUN   TestAllRequestsSmall
+--- PASS: TestAllRequestsSmall (0.37s)
+=== RUN   TestAllRequestsMedium
+--- PASS: TestAllRequestsMedium (1.38s)
+=== RUN   TestAllRequestsLarge
+--- PASS: TestAllRequestsLarge (8.82s)
+=== RUN   TestAllRequestsXtraLarge
+--- PASS: TestAllRequestsXtraLarge (83.33s)
+PASS
+ok  	parserver/twitter	145.200s

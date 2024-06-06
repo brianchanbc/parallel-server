@@ -1,0 +1,22 @@
+Test Score
+
+Category                                                       Passed / Total       Score  / Points    
+----------------------------------------------------------------------------------------------------
+Twitter Test - SimpleDone                                      1      / 1           2.00   / 2.00      
+Twitter Test - SimpleWaitDone                                  1      / 1           2.00   / 2.00      
+Twitter Test - AddRequests                                     1      / 1           3.00   / 3.00      
+Twitter Test - SimpleAddRequest                                1      / 1           3.00   / 3.00      
+Twitter Test - ContainsRequest                                 1      / 1           3.00   / 3.00      
+Twitter Test - AddWithContainsRequest                          1      / 1           3.00   / 3.00      
+Twitter Test - SimpleFeedRequest                               1      / 1           3.00   / 3.00      
+Twitter Test - SimpleAddAndFeedRequest                         1      / 1           3.00   / 3.00      
+Twitter Test - SimpleRemoveRequest                             1      / 1           3.00   / 3.00      
+Twitter Test - AllRequestsXtraSmall                            1      / 1           5.00   / 5.00      
+Twitter Test - AllRequestsSmall                                1      / 1           5.00   / 5.00      
+Twitter Test - AllRequestsMedium                               1      / 1           5.00   / 5.00      
+Twitter Test - AllRequestsLarge                                1      / 1           5.00   / 5.00      
+Twitter Test - AllRequestsXtraLarge                            1      / 1           5.00   / 5.00      
+----------------------------------------------------------------------------------------------------
+                                                                            TOTAL = 50.00  / 50.000000 
+====================================================================================================
+
