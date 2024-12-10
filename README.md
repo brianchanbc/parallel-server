@@ -6,9 +6,9 @@ The goal of the project is to create a Twitter-like client server system with mu
 ![model](./cs_model.png)
 
 # Result Interpretation
-Detailed time measurements are stored in *parserver/benchmark/slurm/out/speed.txt* 
+Detailed time measurements are stored in *benchmark/slurm/out/speed.txt* 
 
-Speedup graph is stored in *parserver/benchmark/speedup_graph.png*. 
+Speedup graph is stored in *benchmark/speedup_graph.png*. 
 
 Cluster node specs: 
 * fast node
@@ -18,7 +18,7 @@ Cluster node specs:
 * /local: 2x 960GB Intel SSD RAID0 
 
 ## Speedup Graph
-![Speedup Graph](./parserver/benchmark/speedup_graph.png)
+![Speedup Graph](./benchmark/speedup_graph.png)
 
 ### General Interpretation
 There is a positive relationship between file size and speedup. xlarge file (purple line) has clearly much higher speed up than large file (red line), which has higher speedup than the other smaller files (xsmall, small, medium). This is reasonable as there are larger portion of time that can be parallelized. There are always overheads such as setting up the requests, dequeuing them and putting them on a queue no matter the file is big and small. In smaller files, the overhead portion is likely to be higher, overshadowing the benefits of parallel programming. 
@@ -83,7 +83,7 @@ Last but not least, the node has a large RAM. Having a high capacity main memory
 * *requirements.txt* specifies the Python libraries to install for the purpose of generating the speedup graph. 
 
 ## How to run the scripts
-1. In *parserver* directory, run the following to set up Python virtual environment
+1. In *root* directory, run the following to set up Python virtual environment
 ```terminal
 python -m venv parserverenv
 ```
@@ -91,7 +91,7 @@ python -m venv parserverenv
 ```terminal
 source parserverenv/bin/activate
 ```
-3. In *parserver* directory, run the following to install the Python libraries for generating graph. 
+3. In *root* directory, run the following to install the Python libraries for generating graph. 
 ```terminal
 pip install -r requirements.txt
 ```
